@@ -1,0 +1,15 @@
+﻿Installing assembly 'C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.InstallLog
+   assemblypath = C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe assembly.
+Committing assembly 'C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.InstallLog
+   assemblypath = C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\Rajeev\Desktop\MiniProject\ReminderService\bin\Debug\ReminderService.vshost.exe assembly.
+Remove InstallState file because there are no installers.

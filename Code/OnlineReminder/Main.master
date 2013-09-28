@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 83px;
+        }
+        .style2
+        {
+            height: 84px;
+            width: 164px;
+        }
+        .style5
+        {
+            height: 90px;
+            width: 164px;
+        }
+        .style11
+        {
+            width: 164px;
+        }
+        .style12
+        {
+            height: 132px;
+        }
+        .style13
+        {
+            height: 132px;
+            width: 237px;
+        }
+        .style14
+        {
+            height: 132px;
+            width: 63px;
+        }
+        .style15
+        {
+            height: 132px;
+            width: 108px;
+        }
+        .style16
+        {
+            height: 132px;
+            width: 33px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    &nbsp;&nbsp;&nbsp;
+    <table class="style1" height="100%" width="100%">
+        <tr>
+            <td class="style11" rowspan="2">
+                <img alt="" src="Logo.png" style="width: 160px; height: 128px" /></td>
+            <td class="style13" align="right">
+                <asp:TextBox ID="TextBox1" runat="server" Width="275px"></asp:TextBox>
+                </td>
+            <td class="style14">
+                <asp:Button ID="Button2" runat="server" Text="Search" />
+                </td>
+            <td class="style16" align="right">
+                <asp:Label ID="Label1" runat="server" Text="By "></asp:Label>
+                </td>
+            <td class="style15">
+                <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>Date</asp:ListItem>
+                    <asp:ListItem>Reminder type</asp:ListItem>
+                    <asp:ListItem>Reminder Note</asp:ListItem>
+                    <asp:ListItem>Mail id</asp:ListItem>
+                    <asp:ListItem>Mobile Number</asp:ListItem>
+                </asp:DropDownList>
+                </td>
+            <td class="style12" align="center" valign="top">
+                <asp:LoginStatus ID="LoginStatus1" runat="server" Font-Names="Calibri" 
+                    LogoutAction="RedirectToLoginPage" />
+                </td>
+            <td class="style12">
+                </td>
+        </tr>
+        <tr>
+            <td class="style10" align="left" colspan="6" rowspan="3" valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+                </td>
+        </tr>
+        <tr>
+            <td class="style5" align="left" valign="top">
+                <table style="width: 100%; height: 421px;">
+                    <tr>
+                        <td valign="top">
+                            <br />
+                            <br />
+                            <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" 
+                                DynamicHorizontalOffset="2" Font-Names="Calibri" Font-Size="Large" 
+                                ForeColor="#7C6F57" Height="104px" StaticSubMenuIndent="10px" Width="100%">
+                                <DynamicHoverStyle BackColor="#666666" Font-Names="Calibri" Font-Size="Medium" 
+                                    ForeColor="White" />
+                                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <DynamicMenuStyle BackColor="#F7F6F3" />
+                                <DynamicSelectedStyle BackColor="#5D7B9D" />
+                                <DynamicItemTemplate>
+                                    <%# Eval("Text") %>
+                                </DynamicItemTemplate>
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/AddReminder.aspx" Text="Create Reminder" 
+                                        Value="Create Reminder"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/RemindersList.aspx" Text="View Reminders" 
+                                        Value="View Reminders"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/SendMail.aspx" Text="Compose Mail" 
+                                        Value="Compose Mail"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/SendMessage.aspx" Text="Compose Message" 
+                                        Value="Compose Message"></asp:MenuItem>
+                                </Items>
+                                <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <StaticSelectedStyle BackColor="#5D7B9D" />
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+        </tr>
+        <tr>
+            <td class="style2">
+                &nbsp;</td>
+        </tr>
+    </table>
+    <div>
+    </div>
+    </form>
+</body>
+</html>

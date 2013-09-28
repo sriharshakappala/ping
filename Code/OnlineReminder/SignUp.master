@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SignUp.master.cs" Inherits="SignUp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+        <style>
+        h1
+        {                    
+          font-family:"alberto";
+          font-size:70px;
+          color:cornsilk;
+       }
+       </style>
+</head>
+<body background="newbg.jpg">
+<h1> &nbsp; &nbsp; ping </h1>
+</body>
+</html>

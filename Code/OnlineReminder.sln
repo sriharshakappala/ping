@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OnlineRemainder", "OnlineRemainder\", "{1371A486-84CB-4730-BF36-F208F87771B0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/OnlineRemainder"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\MiniProject\OnlineRemainder\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineRemainder\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OnlineRemainder"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\MiniProject\OnlineRemainder\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlineRemainder\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3584"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1371A486-84CB-4730-BF36-F208F87771B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1371A486-84CB-4730-BF36-F208F87771B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
