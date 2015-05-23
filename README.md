@@ -15,6 +15,7 @@ Features
 
 1. Manage reminders.
 2. Send automated mails / messages.
+3. Use it as an alternate to your mail client and mobile phone
 
 
 Installation Help
